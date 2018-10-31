@@ -15,7 +15,7 @@ System.register(["./View"], function (exports_1, context_1) {
                 }
                 template(model) {
                     return `
-            <div class="card my-2 col">
+            <div class="card col-md-4">
                 <div class="card-body text-center">
                     <h5>Perder peso</h5>
                     <p class="card-text">
@@ -27,7 +27,7 @@ System.register(["./View"], function (exports_1, context_1) {
                 </div>
             </div> <!-- /card -->
 
-            <div class="card m-2 col">
+            <div class="card col-md-4">
                 <div class="card-body text-center">
                     <h5>Manter peso</h5>
                     <p class="card-text">
@@ -39,7 +39,7 @@ System.register(["./View"], function (exports_1, context_1) {
                 </div>
             </div> <!-- /card -->
 
-            <div class="card my-2 col">
+            <div class="card col-md-4">
                 <div class="card-body text-center">
                     <h5>Ganhar peso</h5>
                     <span class="display-4 font-weight-bold">

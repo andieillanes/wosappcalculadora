@@ -10,7 +10,7 @@ export class ConsultaView extends View<Consulta>{
     template(model?: Consulta | void): string {
 
         return `
-            <div class="card my-2 col">
+            <div class="card col-md-4">
                 <div class="card-body text-center">
                     <h5>Perder peso</h5>
                     <p class="card-text">
@@ -22,7 +22,7 @@ export class ConsultaView extends View<Consulta>{
                 </div>
             </div> <!-- /card -->
 
-            <div class="card m-2 col">
+            <div class="card col-md-4">
                 <div class="card-body text-center">
                     <h5>Manter peso</h5>
                     <p class="card-text">
@@ -34,7 +34,7 @@ export class ConsultaView extends View<Consulta>{
                 </div>
             </div> <!-- /card -->
 
-            <div class="card my-2 col">
+            <div class="card col-md-4">
                 <div class="card-body text-center">
                     <h5>Ganhar peso</h5>
                     <span class="display-4 font-weight-bold">
