@@ -1,8 +1,8 @@
 export class Mensagem {
 
-    readonly _texto: string
+  readonly _texto: string
 
-    constructor(texto: string) {
-        this._texto = texto;
-    }
+  constructor(texto: string) {
+    this._texto = texto;
+  }
 }

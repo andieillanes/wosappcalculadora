@@ -1,19 +1,19 @@
 export function domInject(seletor: string) {
 
-    return function(target: any, key: string) {
+  return function (target: any, key: string) {
 
-        let elemento: Element;
+    let elemento: Element;
 
-        const getter = () => {
+    const getter = () => {
 
-            if(!elemento)
-                elemento = <HTMLInputElement>document.querySelector(seletor);
+      if (!elemento)
+        elemento = <HTMLInputElement>document.querySelector(seletor);
 
-            return elemento;
-        }
-
-        Object.defineProperty(target, key, {
-            get: getter
-        });
+      return elemento;
     }
+
+    Object.defineProperty(target, key, {
+      get: getter
+    });
+  }
 }

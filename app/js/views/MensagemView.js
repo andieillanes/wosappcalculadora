@@ -15,10 +15,10 @@ System.register(["./View"], function (exports_1, context_1) {
                 }
                 template(texto) {
                     return `
-            <div class="alert alert-warning col my-2" role="alert">
-                ${texto}
-            </div>
-        `;
+      <div class="alert alert-warning col my-2" role="alert">
+        ${texto}
+      </div>
+   `;
                 }
             };
             exports_1("MensagemView", MensagemView);
