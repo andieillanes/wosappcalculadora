@@ -34,7 +34,7 @@ System.register(["../models/Consulta", "../views/ConsultaView", "../helpers/deco
                     e.preventDefault();
                     const consulta = new Consulta_1.Consulta(this._inputSexo.value, this._inputFrequencia.value, parseInt(this._inputIdade.value), parseFloat(this._inputPeso.value), parseFloat(this._inputAltura.value));
                     this._consultaView.atualiza(consulta);
-                    this._mensagemView.atualiza('Atenção! essa calculadora não substitui uma avaliação nutricional.');
+                    this._mensagemView.atualiza('Advertencia: esta calculadora no sustituye a una evaluación nutricional.');
                 }
             };
             __decorate([
